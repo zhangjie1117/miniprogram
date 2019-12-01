@@ -1,0 +1,36 @@
+/* pages/center/index.wxss */
+
+form {
+  /* 需要强制指定 from 为块元素 */
+  display: block;
+  padding: 15px;
+}
+
+.item {
+  display: flex;
+  height: 30px;
+  line-height: 30px;
+  margin: 6px;
+  border-bottom: 1px solid #ccc;
+  /* background-color: pink; */
+}
+
+.item label {
+  width: 60px;
+}
+
+.item input {
+  flex: 1;
+  height: 100%;
+  /* background-color: green; */
+}
+
+.box {
+  width: 300rpx;
+  height: 300rpx;
+  border: 1rpx solid red;
+  /* wxss 不支持本地资源路径，只支持网络资源（http https） 或 base64 */
+  /* 较大的图片不要转 base64 */
+  /* background-image: url(../../icons/home-default.png); */
+  background-image: url(https://botue.github.io/84qi/uploads/content_1.png);
+}

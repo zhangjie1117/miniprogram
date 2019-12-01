@@ -1,0 +1,54 @@
+
+page {
+  background-color: #F0F0F0;
+}
+
+/* swiper 有默认样式式，需要根据 UI 调整成合适尺寸 */
+swiper {
+  height: 320rpx;
+}
+
+image {
+  width: 750rpx;
+  height: 320rpx;
+}
+
+/* 标题 */
+.title {
+  line-height: 1;
+  font-size: 28rpx;
+  color: #3C3C3C;
+  padding: 20rpx 30rpx;
+}
+
+.item {
+  margin-bottom: 20rpx;
+}
+
+.info {
+  height: 180rpx;
+  padding: 16rpx 130rpx 22rpx 30rpx;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.info .name {
+  font-size: 30rpx;
+  color: #3C3C3C;
+}
+
+.info .extra {
+  font-size: 22rpx;
+  color: #B4B4B4;
+  position: absolute;
+  bottom: 22rpx;
+}
+
+.info .status {
+  color: #FE6249;
+  font-size: 30rpx;
+  position: absolute;
+  right: 30rpx;
+  top: 16rpx;
+}

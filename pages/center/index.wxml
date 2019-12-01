@@ -1,0 +1,31 @@
+
+<!-- 小程序中也有与网页类似的 form 标签 -->
+<form>
+  <!-- 相当于网页中的 div 是块级元素 -->
+  <view class="item">
+    <label>姓名:</label>
+    <!-- 小程序中 input 无默认边框线 -->
+    <input />
+  </view>
+
+  <view class="item">
+    <label>姓名:</label>
+    <!-- 小程序中 input 无默认边框线 -->
+    <input />
+  </view>
+
+  <view class="item">
+    <label>姓名:</label>
+    <!-- 小程序中 input 无默认边框线 -->
+    <input />
+  </view>
+
+  <view class="item">
+    <label>验证码:</label>
+    <!-- 小程序中 input 无默认边框线 -->
+    <input />
+  </view>
+</form>
+
+
+<view class="box"></view>
